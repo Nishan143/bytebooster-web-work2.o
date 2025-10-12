@@ -1196,3 +1196,47 @@ body {
   min-height: 140px;
   border-radius: 14px;
 }
+/* ================================= */
+/* ==================================== */
+
+.template-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.template-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+.template-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: 0.3s;
+}
+.template-card:hover .template-img {
+  transform: scale(1.05);
+}
+.temp-body {
+  text-align: center;
+  padding: 20px;
+}
+.btn-preview {
+  background-color: #2563eb;
+  color: white;
+  margin: 5px;
+}
+.btn-download {
+  background-color: #facc15;
+  color: #111827;
+  margin: 5px;
+}
+.modal-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.modal-title {
+  font-weight: 600;
+}
