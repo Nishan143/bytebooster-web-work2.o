@@ -51,7 +51,7 @@ a:hover {
 }
 .logo-part {
   width: 190px;
-  height: 100px;
+  height: 120px;
   /* margin-left: 50px; */
 }
 .logo-part-home {
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .resource-box {
-  text-align: left;
+  text-align: justify;
   padding: 20px;
   color: white;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -326,7 +326,10 @@ footer {
   background-color: #000;
   color: #fff;
 }
-
+.mb-0 {
+  width: 150px;
+  height: 50px;
+}
 .footer-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding-bottom: 1rem;
@@ -406,7 +409,7 @@ footer {
 body {
   font-family: "Poppins", sans-serif; /* A font similar to the image */
   /* background-color: #0b0c10; Dark background for the entire page */
-  padding-top: 70px; /* To prevent content from being hidden by the fixed navbar */
+  /* To prevent content from being hidden by the fixed navbar */
   text-align: justify;
 }
 
@@ -914,6 +917,7 @@ body {
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
+  text-align: justify;
 }
 
 .footer {
@@ -1250,6 +1254,6 @@ body {
   font-weight: 600;
 }
 .fut_logo {
-  width: 190px;
-  height: 100px;
+  width: 160px;
+  height: 50px;
 }
