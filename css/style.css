@@ -46,6 +46,45 @@ a:hover {
 }
 
 /* Top Header */
+/* Center everything on smaller screens */
+@media (max-width: 767.98px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .dropdown {
+    margin-top: 10px;
+  }
+
+  .logo-part {
+    max-width: 100%;
+  }
+
+  .btn-np {
+    font-size: 14px;
+  }
+  .btn-light {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .divider {
+    height: 40px;
+  }
+
+  .logo-part {
+    max-width: 85px;
+  }
+}
 .top-header {
   background-color: transparent;
 }
