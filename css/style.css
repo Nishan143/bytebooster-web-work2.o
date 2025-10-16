@@ -385,8 +385,9 @@ footer {
 .footer-links a:hover {
   color: #ffdddd;
 }
+
 .get i {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 .sign-in-btn {
   background-color: #03b4a5;
@@ -1275,6 +1276,13 @@ body {
   text-align: center;
   padding: 20px;
 }
+.btn-light {
+  margin-bottom: 20px;
+}
+.divider {
+  margin-bottom: 20px;
+}
+
 .btn-preview {
   background-color: #2563eb;
   color: white;
